@@ -22,3 +22,7 @@ Front Camera | 2 MP, f/2.4, 22mm
 Release Date | February 2014
 
 ![Galaxy S5](http://cdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s5-g900f-1.jpg "Galaxy S5")
+
+
+PA------Add the pa_klte.mk to a new folder in vendor/pa/products titled klte. 
+hexagon Rom---- remove the line discussing nfc out of the vendor/hexagon/product/klte.mk since it is calling for a fole that doesnt exist.
